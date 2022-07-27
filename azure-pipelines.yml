@@ -16,7 +16,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    cd Sheryphdeen/disturbing-angular/
     npm install -g @angular/cli@latest
     npm install
     npm link @angular/cli
