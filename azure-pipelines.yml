@@ -17,6 +17,7 @@ steps:
 
 - script: |
     npm install -g @angular/cli
+    npm link @angular/cli
   displayName: 'npm install and build'
 
 - script: |
@@ -24,6 +25,5 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
-    npm link @angular/cli
     ng build --prod --verbose
   displayName: 'npm install and build'
