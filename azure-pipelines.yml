@@ -24,5 +24,6 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
+    npm link @angular/cli
     ng build --prod --verbose
   displayName: 'npm install and build'
